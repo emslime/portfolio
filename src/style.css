@@ -1,20 +1,42 @@
+:root {
+    --primary-color: #252525;
+    --secondary-color: #FFF;
+}
+
 body {
     margin: 11px;
     padding: 11px;
     text-align: center;
     font-family: 'Philosopher', sans-serif;
-    border: 7px solid #000;
+    border: 7px solid #252525;
+    color: var(--primary-color);
+    
 }
 
 h1 {
-    margin: 30px;
     font-weight: bold;
+    font-size: 96px;
 }
 
-p {
-    margin-bottom: 100px;
+h2{
+    margin-bottom: 0;
+}
+
+.btn {
+    margin: 25px;
+    padding: 13px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.btn:hover {
+    padding: 14px;
+    transition: ease-in-out;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .icons {
+    margin-top: 100px;
     font-size: 32px;
 }
