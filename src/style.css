@@ -36,7 +36,31 @@ h2{
     color: var(--secondary-color);
 }
 
+.dictionary-homepage{
+    margin-top: 100px;
+}
+
+.other-projects {
+     margin-top: 150px;   
+ }
+
 .icons {
     margin-top: 100px;
     font-size: 32px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 56px;
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: -11px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .icons {
+       margin-top: 0;
+    }
 }
