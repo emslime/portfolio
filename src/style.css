@@ -1,11 +1,18 @@
 body {
-    margin-top: 50px;
+    margin: 11px;
+    padding: 11px;
     text-align: center;
-    font-family: 'Philosopher', sans-serif;;
+    font-family: 'Philosopher', sans-serif;
+    border: 7px solid #000;
 }
 
 h1 {
+    margin: 30px;
     font-weight: bold;
+}
+
+p {
+    margin-bottom: 100px;
 }
 
 .icons {
