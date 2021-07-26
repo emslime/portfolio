@@ -49,13 +49,26 @@ h2{
     font-size: 32px;
 }
 
+.social {
+    color: var(--primary-color);
+}
+
+.social:hover {
+    color: #6930C3;
+}
+
 @media (max-width: 576px) {
     h1 {
+
         font-size: 56px;
     }
     p {
         font-size: 15px;
-        margin-bottom: -11px;
+        margin-bottom: 0px;
+        margin-top: -10px;
+    }
+    h2 {
+        font-size: 20px;
     }
     h3 {
         font-size: 20px;
