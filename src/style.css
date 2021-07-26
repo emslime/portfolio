@@ -1,13 +1,15 @@
 :root {
     --primary-color: #252525;
     --secondary-color: #FFF;
+    --head-font: 'Philosopher', sans-serif;
+    --body-font: 'Fira Sans', sans-serif;
 }
 
 body {
     margin: 11px;
     padding: 11px;
     text-align: center;
-    font-family: 'Philosopher', sans-serif;
+    font-family: var(--body-font);
     border: 7px solid #252525;
     color: var(--primary-color);
     
@@ -16,10 +18,11 @@ body {
 h1 {
     font-weight: bold;
     font-size: 96px;
+    font-family: var(--head-font);
 }
 
-h2{
-    margin-bottom: 0;
+h3 {
+    font-family: var(--head-font);
 }
 
 .btn {
