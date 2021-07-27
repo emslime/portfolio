@@ -89,6 +89,14 @@ h3 {
   margin-top: -5px;
 }
 
+.email {
+  color: var(--primary-color);
+}
+
+.email:hover {
+  color: var(--link-hover);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 56px;
