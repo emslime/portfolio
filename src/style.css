@@ -77,16 +77,37 @@ h3 {
   color: var(--link-hover);
 }
 
+.about-paragraph {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.about-list {
+  font-size: 23px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.code-icons {
+  margin-top: 30px;
+  font-size: 100px;
+}
+
+.code-icons-secondary {
+  margin-top: 25px;
+  font-size: 100px;
+}
+
+.contact {
+  margin-top: 60px;
+}
+
 .shecodes-link {
   color: var(--primary-color);
 }
 
 .shecodes-link:hover {
   color: var(--link-hover);
-}
-
-.about-paragraph {
-  margin-top: -5px;
 }
 
 .email {
@@ -120,8 +141,20 @@ h3 {
   }
 }
 
-@media (min-width: 992px) {
-  .about-paragraph {
-    margin-top: 50px;
+@media (max-width: 992px) {
+  .about-list {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .code-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .code-icons {
+    font-size: 80px;
   }
 }
