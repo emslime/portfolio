@@ -1,6 +1,7 @@
 :root {
   --primary-color: #252525;
   --secondary-color: #fff;
+  --link-hover: #6930c3;
   --head-font: "Philosopher", sans-serif;
   --body-font: "Fira Sans", sans-serif;
 }
@@ -26,13 +27,13 @@ h3 {
 
 .btn {
   margin: 25px;
-  padding: 13px;
+  padding: 11px;
   background: var(--primary-color);
   color: var(--secondary-color);
 }
 
 .btn:hover {
-  padding: 14px;
+  padding: 13px;
   transition: ease-in-out;
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -42,8 +43,12 @@ h3 {
   margin-top: 100px;
 }
 
-.other-projects {
-  margin-top: 150px;
+.manager-link {
+  color: var(--primary-color);
+}
+
+.manager-link:hover {
+  color: #6930c3;
 }
 
 .icons {
@@ -56,7 +61,7 @@ h3 {
 }
 
 .social:hover {
-  color: #6930c3;
+  color: var(--link-hover);
 }
 
 .footer {
@@ -65,17 +70,28 @@ h3 {
 }
 
 .credit-links {
-  color: #252525;
+  color: var(--primary-color);
+}
+
+.credit-links:hover {
+  color: var(--link-hover);
+}
+
+.shecodes-link {
+  color: var(--primary-color);
+}
+
+.shecodes-link:hover {
+  color: var(--link-hover);
+}
+
+.about-paragraph {
+  margin-top: -5px;
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 56px;
-  }
-  p {
-    font-size: 15px;
-    margin-bottom: 0px;
-    margin-top: -10px;
   }
   h2 {
     font-size: 20px;
@@ -83,7 +99,15 @@ h3 {
   h3 {
     font-size: 20px;
   }
+  .my-description {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+  }
   .icons {
     margin-top: 0;
+  }
+  .about-paragraph {
+    margin-top: 20px;
   }
 }
