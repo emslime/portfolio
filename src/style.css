@@ -59,6 +59,15 @@ h3 {
   color: #6930c3;
 }
 
+.footer {
+  font-size: 10px;
+  margin-top: 25px;
+}
+
+.credit-links {
+  color: #252525;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 56px;
