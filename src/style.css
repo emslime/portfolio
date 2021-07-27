@@ -1,82 +1,80 @@
 :root {
-    --primary-color: #252525;
-    --secondary-color: #FFF;
-    --head-font: 'Philosopher', sans-serif;
-    --body-font: 'Fira Sans', sans-serif;
+  --primary-color: #252525;
+  --secondary-color: #fff;
+  --head-font: "Philosopher", sans-serif;
+  --body-font: "Fira Sans", sans-serif;
 }
 
 body {
-    margin: 11px;
-    padding: 11px;
-    text-align: center;
-    font-family: var(--body-font);
-    border: 7px solid #252525;
-    color: var(--primary-color);
-    
+  margin: 11px;
+  padding: 11px;
+  text-align: center;
+  font-family: var(--body-font);
+  border: 7px solid #252525;
+  color: var(--primary-color);
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 96px;
-    font-family: var(--head-font);
+  font-weight: bold;
+  font-size: 96px;
+  font-family: var(--head-font);
 }
 
 h3 {
-    font-family: var(--head-font);
+  font-family: var(--head-font);
 }
 
 .btn {
-    margin: 25px;
-    padding: 13px;
-    background: var(--primary-color);
-    color: var(--secondary-color);
+  margin: 25px;
+  padding: 13px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .btn:hover {
-    padding: 14px;
-    transition: ease-in-out;
-    background: var(--primary-color);
-    color: var(--secondary-color);
+  padding: 14px;
+  transition: ease-in-out;
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-.dictionary-homepage{
-    margin-top: 100px;
+.dictionary-homepage {
+  margin-top: 100px;
 }
 
 .other-projects {
-     margin-top: 150px;   
- }
+  margin-top: 150px;
+}
 
 .icons {
-    margin-top: 100px;
-    font-size: 32px;
+  margin-top: 100px;
+  font-size: 32px;
 }
 
 .social {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .social:hover {
-    color: #6930C3;
+  color: #6930c3;
 }
 
 @media (max-width: 576px) {
-    h1 {
-
-        font-size: 56px;
-    }
-    p {
-        font-size: 15px;
-        margin-bottom: 0px;
-        margin-top: -10px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    .icons {
-       margin-top: 0;
-    }
+  h1 {
+    font-size: 56px;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .icons {
+    margin-top: 0;
+  }
 }
