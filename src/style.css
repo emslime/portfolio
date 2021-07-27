@@ -111,3 +111,9 @@ h3 {
     margin-top: 20px;
   }
 }
+
+@media (min-width: 992px) {
+  .about-paragraph {
+    margin-top: 50px;
+  }
+}
