@@ -18,9 +18,11 @@ body {
 h1 {
   font-weight: bold;
   font-size: 96px;
-  font-family: var(--head-font);
+  margin-bottom: 50px;
 }
 
+h1,
+h2,
 h3 {
   font-family: var(--head-font);
 }
@@ -30,11 +32,11 @@ h3 {
   padding: 11px;
   background: var(--primary-color);
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .btn:hover {
-  padding: 13px;
-  transition: ease-in-out;
+  padding: 12px;
   background: var(--primary-color);
   color: var(--secondary-color);
 }
@@ -43,25 +45,9 @@ h3 {
   margin-top: 100px;
 }
 
-.manager-link {
-  color: var(--primary-color);
-}
-
-.manager-link:hover {
-  color: #6930c3;
-}
-
 .icons {
   margin-top: 100px;
   font-size: 32px;
-}
-
-.social {
-  color: var(--primary-color);
-}
-
-.social:hover {
-  color: var(--link-hover);
 }
 
 .footer {
@@ -69,11 +55,19 @@ h3 {
   margin-top: 25px;
 }
 
-.credit-links {
+.credit-links,
+.social,
+.manager-link,
+.shecodes-link,
+.email {
   color: var(--primary-color);
 }
 
-.credit-links:hover {
+.credit-links:hover,
+.social:hover,
+.manager-link:hover,
+.shecodes-link:hover,
+.email:hover {
   color: var(--link-hover);
 }
 
@@ -99,43 +93,30 @@ h3 {
 }
 
 .contact {
-  margin-top: 60px;
-}
-
-.shecodes-link {
-  color: var(--primary-color);
-}
-
-.shecodes-link:hover {
-  color: var(--link-hover);
-}
-
-.email {
-  color: var(--primary-color);
-}
-
-.email:hover {
-  color: var(--link-hover);
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 56px;
   }
-  h2 {
-    font-size: 20px;
-  }
+
+  h2,
   h3 {
     font-size: 20px;
   }
+
   .my-description {
     font-size: 15px;
     margin-bottom: 0px;
     margin-top: -10px;
   }
+
   .icons {
     margin-top: 0;
   }
+
   .about-paragraph {
     margin-top: 20px;
   }
