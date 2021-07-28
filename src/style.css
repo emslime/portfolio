@@ -130,6 +130,11 @@ h3 {
   margin-bottom: -65px;
 }
 
+.react-weather,
+.vanilla-weather {
+  margin-top: 5px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 54px;
