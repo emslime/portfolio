@@ -27,6 +27,11 @@ h3 {
   font-family: var(--head-font);
 }
 
+.navbar-brand {
+  font-family: var(--head-font);
+  font-weight: bold;
+}
+
 .btn {
   margin: 25px;
   padding: 11px;
@@ -39,6 +44,10 @@ h3 {
   padding: 12px;
   background: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.my-description {
+  margin-top: -30px;
 }
 
 .dictionary-homepage {
@@ -99,18 +108,12 @@ h3 {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 56px;
+    font-size: 66px;
   }
 
   h2,
   h3 {
-    font-size: 20px;
-  }
-
-  .my-description {
-    font-size: 15px;
-    margin-bottom: 0px;
-    margin-top: -10px;
+    font-size: 25px;
   }
 
   .icons {
