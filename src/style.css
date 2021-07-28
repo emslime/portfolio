@@ -64,20 +64,39 @@ h3 {
   margin-top: 25px;
 }
 
+.social {
+  text-decoration: none;
+}
+
 .credit-links,
-.social,
-.manager-link,
-.shecodes-link,
-.email {
+.social {
   color: var(--primary-color);
 }
 
 .credit-links:hover,
 .social:hover,
+.manager-link,
+.manager-link:hover,
+.shecodes-link,
+.shecodes-link:hover,
+.email,
+.email:hover,
+.instagram,
+.instagram:hover,
+.github,
+.github:hover,
+.linkedin,
+.linkedin:hover {
+  color: var(--link-hover);
+}
+
 .manager-link:hover,
 .shecodes-link:hover,
-.email:hover {
-  color: var(--link-hover);
+.email:hover,
+.instagram:hover,
+.github:hover,
+.linkedin:hover {
+  opacity: 0.7;
 }
 
 .about-paragraph {
@@ -106,6 +125,11 @@ h3 {
   margin-bottom: 20px;
 }
 
+.contact-list {
+  margin-top: -30px;
+  margin-bottom: -50px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 66px;
@@ -122,6 +146,11 @@ h3 {
 
   .about-paragraph {
     margin-top: 20px;
+  }
+
+  .contact-list {
+    margin-top: 20px;
+    margin-bottom: 65px;
   }
 }
 
