@@ -120,7 +120,12 @@ h3 {
   font-size: 70px;
 }
 
-.contact {
+.shecodes-container {
+  max-width: 80%;
+}
+
+.contact,
+.shecodes {
   margin-top: 80px;
   margin-bottom: 20px;
 }
@@ -133,6 +138,19 @@ h3 {
 .react-weather,
 .vanilla-weather {
   margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.react-dictionary {
+  margin-bottom: 20px;
+}
+
+.work-titles {
+  font-weight: bold;
+}
+
+.work-paragraph {
+  padding: 0 15px;
 }
 
 @media (max-width: 576px) {
@@ -151,6 +169,15 @@ h3 {
 
   .icons {
     margin-top: 0;
+  }
+
+  .shecodes-container {
+    max-width: 75%;
+    margin-top: 35px;
+  }
+
+  .shecodes {
+    margin-top: 25px;
   }
 
   .contact-list {
